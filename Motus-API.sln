@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Motus-DataAccessLayer", "Motus-DataAccessLayer\Motus-DataAccessLayer.csproj", "{C93FC8FF-487B-4658-AAB8-0C5418887EB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Motus-API", "Motus-API\Motus-API.csproj", "{147550DE-D272-4711-8A3A-35910FF78F70}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Motus-DB", "Motus-DB\Motus-DB.sqlproj", "{27D4D002-ADB6-4252-87C1-2F7511C28921}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C93FC8FF-487B-4658-AAB8-0C5418887EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C93FC8FF-487B-4658-AAB8-0C5418887EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C93FC8FF-487B-4658-AAB8-0C5418887EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C93FC8FF-487B-4658-AAB8-0C5418887EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{147550DE-D272-4711-8A3A-35910FF78F70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{147550DE-D272-4711-8A3A-35910FF78F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{147550DE-D272-4711-8A3A-35910FF78F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{147550DE-D272-4711-8A3A-35910FF78F70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27D4D002-ADB6-4252-87C1-2F7511C28921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D4D002-ADB6-4252-87C1-2F7511C28921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D4D002-ADB6-4252-87C1-2F7511C28921}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{27D4D002-ADB6-4252-87C1-2F7511C28921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D4D002-ADB6-4252-87C1-2F7511C28921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27D4D002-ADB6-4252-87C1-2F7511C28921}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {684E02FD-CC0A-457D-97DC-786C60B43BF3}
+	EndGlobalSection
+EndGlobal
