@@ -17,6 +17,16 @@ namespace Motus_API
             builder.Services.AddControllers()
                 .AddXmlDataContractSerializerFormatters();
 
+            builder.Services.AddCors(
+                options => {
+                    options.AddDefaultPolicy(policy =>
+                    {
+                        policy.AllowAnyOrigin()
+                            .AllowAnyHeader()
+                            .AllowAnyHeader();
+                    });
+                });
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -31,6 +41,8 @@ namespace Motus_API
             }
 
             app.UseHttpsRedirection();
+
+            app.UseCors("default");
 
             app.UseAuthorization();
 
