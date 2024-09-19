@@ -23,7 +23,7 @@ namespace Motus_API
                     {
                         policy.AllowAnyOrigin()
                             .AllowAnyHeader()
-                            .AllowAnyHeader();
+                            .AllowAnyMethod();
                     });
                 });
 
@@ -42,7 +42,7 @@ namespace Motus_API
 
             app.UseHttpsRedirection();
 
-            app.UseCors("default");
+            app.UseCors();
 
             app.UseAuthorization();
 
